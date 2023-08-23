@@ -374,6 +374,12 @@ margin-inline: auto;
         width: 100%;
         padding: 2rem 2rem;
     }
+       .section_2 > .even_container .categories_grid {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
     h1{
         font-size: 2.1rem;
     }
@@ -434,11 +440,6 @@ margin-inline: auto;
     .section_2{
         height: fit-content;
     }
-    .section_2 > .even_container .categories_grid{
-        grid-template-columns: 1fr 1fr;
-        width: fit-content;
-        height: fit-content;
-    }
     .section-3{
         margin-top: 0;
     }
@@ -476,7 +477,3 @@ margin: auto;
 padding: 1rem;
     }
    }
-
-    .section_2 > .even_container .categories_grid{
-    grid-template-columns: 1fr;
-}
