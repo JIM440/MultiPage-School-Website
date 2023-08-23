@@ -476,4 +476,6 @@ margin: auto;
     .categories_grid > div{
 padding: 1rem;
     }
+       .section_2 .even_container{
+           grid-template-columns: 1fr;
    }
